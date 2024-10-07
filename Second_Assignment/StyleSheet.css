@@ -1,0 +1,50 @@
+
+article {
+    Color:#794e1d;
+    font-size:40px;
+    Text-align:center;
+}
+p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: 20px;
+}
+
+.column {
+    width: 27%;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+img{
+    width: 250px;
+    height: 250px;
+}
+li{
+    margin-bottom: 5px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+form {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+label{
+    color: #794e1d;
+}
