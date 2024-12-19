@@ -1,0 +1,102 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    size: 1440px;
+    display: flex;
+    justify-content:center;  
+    align-items: center;  
+    height: 100vh;  
+}
+
+.container  {
+    display: flex;
+    content: normal;
+    
+    
+}
+
+section {
+    
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 500px;
+    align-content: center;
+    padding-left: 35px;
+    border-radius: 0 15px 15px 0;
+  
+    
+}
+
+
+img {
+    border-radius:15px 0 0 15px;
+    width:  330px;
+    height: 500px;
+  
+}
+
+
+#per {
+    color:  hsl(228, 12%, 48%);
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    
+}
+
+#header {
+    font-size: 33px;
+    line-height: 30px;
+    font-family: "Fraunces", serif;
+    font-weight:700;
+    
+} 
+
+
+p{
+    font-size: 14px;
+    color:  hsl(228, 12%, 48%);
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    line-height: 27px;
+    
+}
+
+#new {
+    font-size: 45px;
+    color:   hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-weight:700;
+    font-style: normal;
+}  
+
+#old {
+    
+   font-family: "Montserrat", serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   text-decoration-line :line-through;
+   color:  hsl(228, 12%, 48%);
+}
+
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    cursor: pointer;
+    border:none;
+ 
+}
+
+button:active {
+    background-color: hsl(160, 40%, 20%);
+    color: white;
+}
+
+
+
